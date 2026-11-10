@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Contacto | NeoFox Tech</title>
+
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header>
+
+        <div class="contenedor-header">
+
+            <a href="index.html">
+                <img src="logo.png" alt="Logo NeoFox Tech" class="logo">
+            </a>
+
+            <nav aria-label="Navegación principal">
+                <ul>
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="index.html#nosotros">Nosotros</a></li>
+                    <li><a href="index.html#servicios">Servicios</a></li>
+                    <li><a href="galeria.html">Galería</a></li>
+                    <li><a href="contacto.html">Contacto</a></li>
+                </ul>
+            </nav>
+
+        </div>
+
+    </header>
+
+
+    <main>
+
+        <section>
+
+            <h1>Contactanos</h1>
+
+            <form class="formulario">
+
+                <!-- CAMPO 1 -->
+                <div class="campo">
+
+                    <label for="nombre">
+                        Nombre completo
+                    </label>
+
+                    <input
+                        type="text"
+                        id="nombre"
+                        name="nombre"
+                        required>
+
+                </div>
+
+
+                <!-- CAMPO 2 -->
+                <div class="campo">
+
+                    <label for="email">
+                        Correo electrónico
+                    </label>
+
+                    <input
+                        type="email"
+                        id="email"
+                        name="email"
+                        required>
+
+                </div>
+
+
+                <!-- CAMPO 3 -->
+                <div class="campo">
+
+                    <label for="telefono">
+                        Teléfono
+                    </label>
+
+                    <input
+                        type="tel"
+                        id="telefono"
+                        name="telefono"
+                        required>
+
+                </div>
+
+
+                <!-- CAMPO 4 -->
+                <div class="campo">
+
+                    <label for="empresa">
+                        Empresa o emprendimiento
+                    </label>
+
+                    <input
+                        type="text"
+                        id="empresa"
+                        name="empresa"
+                        required>
+
+                </div>
+
+
+                <!-- CAMPO 5 -->
+                <div class="campo">
+
+                    <label for="servicio">
+                        Servicio de interés
+                    </label>
+
+                    <select id="servicio" name="servicio" required>
+
+                        <option value="">
+                            Seleccioná una opción
+                        </option>
+
+                        <option value="apps">
+                            Desarrollo de Apps
+                        </option>
+
+                        <option value="web">
+                            Desarrollo Web
+                        </option>
+
+                        <option value="uiux">
+                            Diseño UI/UX
+                        </option>
+
+                        <option value="marketing">
+                            Marketing Digital
+                        </option>
+
+                        <option value="ia">
+                            Inteligencia Artificial
+                        </option>
+
+                    </select>
+
+                </div>
+
+
+                <!-- CAMPO 6 -->
+                <div class="campo">
+
+                    <label for="mensaje">
+                        Mensaje
+                    </label>
+
+                    <textarea
+                        id="mensaje"
+                        name="mensaje"
+                        rows="6"
+                        required></textarea>
+
+                </div>
+
+
+                <button type="submit" class="boton">
+                    Enviar consulta
+                </button>
+
+            </form>
+
+        </section>
+
+    </main>
+
+
+    <footer>
+
+        <h3>Contacto</h3>
+
+        <p>📧 neofoxtech@gmail.com</p>
+
+        <p>🌐 www.neofoxtech.com.ar</p>
+
+        <br>
+
+        <p>
+            © 2026 NeoFox Tech - Todos los derechos reservados.
+        </p>
+
+    </footer>
+
+</body>
+
+</html>
